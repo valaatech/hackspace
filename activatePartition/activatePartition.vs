@@ -1,6 +1,6 @@
 (authorityURI, partitionId) => {
   const partitionURI = Valaa.Partition.createPartitionURI(authorityURI, partitionId);
-  console.log("Activating partition URI:",partitionURI);
+  // console.log("Activating partition URI:",partitionURI);
 
   const initializationProcess = Valaa.Partition.acquirePartitionConnection(partitionURI);
 
