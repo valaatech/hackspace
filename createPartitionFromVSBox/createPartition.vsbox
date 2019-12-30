@@ -1,0 +1,5 @@
+(target) => {
+    // CHANGE THE AUTHORITY URI TO THE AUTHORITY YOU WANT
+    const authority = "valaa-aws://l2t9gu7rw4.execute-api.eu-west-1.amazonaws.com/developtest"; // CBT
+    this.zero.operations.createPartitionLink("newPartition", authority, target, "New partition", "New partition");
+}
