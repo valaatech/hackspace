@@ -1,2 +1,3 @@
 # Valoscript files use JavaScript highlighting
 *.vs linguist-language=JavaScript
+*.vsbox linguist-language=JavaScript
